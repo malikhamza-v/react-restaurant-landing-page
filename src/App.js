@@ -13,10 +13,12 @@ import {
   SpecialMenu,
 } from "./container";
 import { Navbar } from "./components";
+import Placeholder from "./components/Placeholder.jsx";
 import "./App.css";
 
 const App = () => (
   <div>
+    <Placeholder />
     <Navbar />
     <Header />
     <AboutUs />
